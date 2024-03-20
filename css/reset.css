@@ -1,0 +1,48 @@
+/* 아리따돋움 */
+@font-face {
+	font-family: 'ad';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-dotum-Medium.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* 고운돋움 */
+@font-face {
+	font-family: 'GowunDodum';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.fs-7 {
+  font-size: 14px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'ad', sans-serif;
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+li {
+	list-style: none;
+}
+
+a { 
+  text-decoration: none; 
+  color:inherit;
+}
+
+img {
+	vertical-align: middle;
+	max-width: 100%;
+}
+
+.house_title {
+	font-family: 'GowunDodum', serif;
+}
